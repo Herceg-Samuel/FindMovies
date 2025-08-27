@@ -1,6 +1,5 @@
 "use client";
 
-import Image from "next/image";
 import Search from "./Search";
 import { useState, useEffect } from "react";
 import Spinner from "./Spinner";
