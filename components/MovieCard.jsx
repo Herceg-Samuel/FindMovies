@@ -14,7 +14,7 @@ const MovieCard = ({
           }
           alt={title}
         />
-        <div className="mt-4">
+        <div className="mt-2">
           <h3>{title}</h3>
 
           <div className="content">
@@ -30,7 +30,6 @@ const MovieCard = ({
             </div>
           </div>
         </div>
-        <p className="text-white">{title}</p>
       </div>
     </>
   );

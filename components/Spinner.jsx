@@ -1,5 +1,8 @@
 import React from "react";
 
+{
+  /**spinner */
+}
 const Spinner = () => {
   return (
     <div role="status">

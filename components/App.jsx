@@ -70,7 +70,7 @@ function App() {
         <div className="pattern" />
         <div className="wrapper"></div>
         <header>
-          <img src="/hero.png" alt="hero png" />
+          <img src="/hero.png" alt="hero png" className="hero_image"/>
           <h1>
             Find <span className="text-gradient">Movies</span> You'll enjoy
             Without the Hastle
