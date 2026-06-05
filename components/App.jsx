@@ -70,14 +70,14 @@ function App() {
         <div className="pattern" />
         <div className="wrapper"></div>
         <header>
-          <img src="/hero.png" alt="hero png" className="hero_image"/>
+          <img src="/hero.png" alt="hero png" className="hero_image" />
           <h1>
             Find <span className="text-gradient">Movies</span> You'll enjoy
             Without the Hastle
           </h1>
           <Search searchTerm={searchTerm} setSearchTerm={setSearchTerm} />
         </header>
-        <section className="all movies">
+        <section className="all-movies">
           <h2 className="mt-[40px]">All Movies</h2>
           {isLoading ? (
             <Spinner />
